@@ -2,7 +2,7 @@
   <NuxtRouteAnnouncer />
 
   <header>
-    <h1>Nuxt 4 on Netlify</h1>
+    <h1>Hello from GitHub</h1>
 
     <p class="subheading">A simple Nuxt 4 app deployed on Netlify</p>
   </header>
