@@ -84,10 +84,14 @@
             href="mailto:fraud@netlify.com?subject=Abuse%20report&body=Please%20include%20the%20site%20URL%20and%20reason%20for%20your%20report%2C%20and%20we%20will%20reply%20promptly.">Abuse</a>
         </li>
       </ul>
-      <div>© 2025 Netlify</div>
+      <div>&copy; {{ currentYear }} Netlify. All rights reserved.</div>
     </small>
   </footer>
 </template>
+
+<script setup lang="ts">
+const currentYear = new Date().getFullYear()
+</script>
 
 <style>
 h3,
